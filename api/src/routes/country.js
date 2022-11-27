@@ -64,4 +64,19 @@ countryRoute.get('/', async (req, res, next) => {
     }
 });
 
+countryRoute.get('/:id', async (req, res, next) => {
+    const { id } = req.params;
+    if (!id) next(new Error('El ID es requerido'));
+    try {
+        if (!cache.allCountries) await getAllCountries();
+        // if (!cache.allCountries) await getAllCountries();
+        const country = await Country.findByPk(id, { include: Activity });
+        if (!country) return res.status(404).send({ error: 'El id es invalido' });
+        res.status(200).send(country);
+
+    } catch (error) {
+        next(error);
+    }
+});
+
 module.exports = { countryRoute, getAllCountries };
