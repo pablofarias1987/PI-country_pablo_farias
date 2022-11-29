@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 // import logo from '../../img/logo.png'
 
-import style from '../styles/LandingPage.css';
+import style from '../styles/LandingPage.module.css';
 import { useFetchCountries } from '../hooks/useFetchCountries';
 
 const InitialPage = () => {

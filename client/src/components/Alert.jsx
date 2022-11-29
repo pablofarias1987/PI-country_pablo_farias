@@ -4,8 +4,9 @@ import { useRef } from 'react';
 import imgOK from '../images/ok_Icon.png';
 import imgError from '../images/error_icon.png';
 
-import style from '../styles/Alert.css'
-import styleBackground from '../styles/CreateActivity.css';
+import style from '../styles/Alert.module.css'
+import styleBackground from '../styles/CreateActivity.module.css';
+
 const Alert = ({ title, text, textBTN, background, type }) => {
 
     const alert = useRef();

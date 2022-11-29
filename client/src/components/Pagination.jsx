@@ -1,4 +1,4 @@
-import style from '../styles/Pagination.css';
+import style from '../styles/Pagination.module.css';
 
 const Pagination = ({ countries, setLimit, pageNumber, setPageNumber }) => {
     const totalPages = ((countries.length + 1) / 10);

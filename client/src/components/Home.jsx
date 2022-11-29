@@ -1,4 +1,4 @@
-import style from '../styles/Home.css';
+import style from '../styles/Home.module.css';
 import Aside from './Aside';
 import Countries from './Countries';
 

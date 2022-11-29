@@ -1,5 +1,5 @@
 import React from  'react';
-import style from '../styles/Card.css';
+import style from '../styles/Card.module.css';
 
 const Card = ({ name, flag, continent }) => {
     return (

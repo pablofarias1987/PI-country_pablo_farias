@@ -5,7 +5,7 @@ import Loading from './Loading';
 import Pagination from './Pagination';
 import AllCountries from './AllCountries';
 
-import style from '../styles/Countries.css';
+import style from '../styles/Countries.module.css';
 
 const Countries = () => {
     const [limit, setLimit] = useState({ min: 0, max: 8 });

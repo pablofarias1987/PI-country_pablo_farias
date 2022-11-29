@@ -1,4 +1,4 @@
-import style from '../styles/FieldAside.css'
+import style from '../styles/FieldAside.module.css'
 
 const FieldAside = ({ id, text, children }) => {
     return (

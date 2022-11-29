@@ -11,8 +11,8 @@ import FieldActivity from './FieldActivity';
 import { cleanActivity, createActivity } from '../redux/actions/activities';
 import { filterCountries } from '../redux/actions/countries';
 
-import style from '../styles/CreateActivity.css';
-import styleAlert from '../styles/Alert.css';
+import style from '../styles/CreateActivity.module.css';
+import styleAlert from '../styles/Alert.module.css';
 
 const CreateActivity = () => {
 

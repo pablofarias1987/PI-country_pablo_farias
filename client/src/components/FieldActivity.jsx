@@ -1,4 +1,4 @@
-import style from '../styles/Field.css';
+import style from '../styles/Field.module.css';
 
 const FieldActivity = ({ field, id, text, textWrong, children }) => {
 

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import Card from './Card';
-
-import style from '../styles/AllCountries.css';
+import style from '../styles/AllCountries.module.css';
 
 const AllCountries = ({ filteredCountries, limit }) => {
 

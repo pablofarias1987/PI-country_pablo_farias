@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 
 import { filterCountries } from '../redux/actions/countries';
 
-import style from '../styles/Aside.css';
+import style from '../styles/Aside.module.css';
 import { useFetchActivities } from '../hooks/useFetchActivities';
 import FieldAside from './FieldAside';
 

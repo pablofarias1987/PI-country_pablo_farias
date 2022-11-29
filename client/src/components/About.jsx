@@ -1,7 +1,7 @@
  import img from '../images/earth.png'
  import programmer from '../images/programming.png'
 
-import style from '../styles/About.css';
+import style from '../styles/About.module.css';
 
 const About = () => {
   return (
@@ -85,10 +85,10 @@ const About = () => {
               <img className={`${style.img} ${style.floatLeft}`} src={programmer} alt="" />
             </div>
             <p>Hello World!</p>
-            <p>I'm Aldo Aliscioni an apassionate about coding and technologies, with one goal: become a FullStack Developer.</p>
+            <p>I'm Pablo Farias an apassionate about coding and technologies, with one goal: become a FullStack Developer.</p>
             <p>To any feedback about this page, feel free to contact me :)</p>
-            <p><a className={style.link} href="https://www.linkedin.com/in/aldo-aliscioni/" target='_blank' rel='noreferrer'>My Linkedin</a></p>
-            <p><a className={style.link} href="https://github.com/4ldito/PI-Countries/" target='_blank' rel='noreferrer'>GitHub Repositore</a></p>
+            <p><a className={style.link} href="https://www.linkedin.com/in/pablo-farias-gallardo-3355a8b8/" target='_blank' rel='noreferrer'>My Linkedin</a></p>
+            <p><a className={style.link} href="https://github.com/pablofarias1987" target='_blank' rel='noreferrer'>GitHub Repositore</a></p>
           </div>
         </div>
       </div>

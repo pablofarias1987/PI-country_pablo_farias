@@ -8,7 +8,7 @@ import Loading from './Loading';
 import { cleanCountryId, getCountries, getCountryById } from '../redux/actions/countries';
 import { difficulties, subregions } from '../utils/utils';
 
-import style from '../styles/CountryDetails.css';
+import style from '../styles/CountryDetails.module.css';
 
 const CountryDetails = () => {
   const dispatch = useDispatch();

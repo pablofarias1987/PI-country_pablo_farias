@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 // import logo from '../../img/logo.png';
 
-import style from '../styles/Navbar.css';
+import style from '../styles/Navbar.module.css';
 
 const Navbar = () => {
     // const navigate = useNavigate();
