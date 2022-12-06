@@ -29,9 +29,6 @@ const Navbar = () => {
             <li>
               <NavLink onClick={handleOnClick} className={style.btn} to='/about'>About</NavLink>
             </li>
-            <li>
-              {/* <a href='#' onClick={() => navigate(-1)} className={style.btn}>Back</a> */}
-            </li>
           </ul>
           <div className={style.containerMenu}>
             <a onClick={handleOnClick} href='#'><i className={`fa-solid fa-bars ${style.btnMenu}`}></i></a>

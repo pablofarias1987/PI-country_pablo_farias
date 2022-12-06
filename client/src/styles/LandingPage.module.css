@@ -40,22 +40,6 @@
     ;
 }
 
-.icon {
-    position: absolute;
-    top: 86%;
-    left: 92%;
-    font-size: 2rem;
-    background-color: var(--color-gray);
-    padding: 1rem;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.icon:hover {
-    background-color: #101010;
-}
 
 @media screen and (max-width: 1180px) {
     .infoContainer {
